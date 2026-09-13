@@ -1,0 +1,35 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'pl.flir18t.compat'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'pl.flir18t.compat'
+        minSdk 29
+        targetSdk 33
+        versionCode 5
+        versionName '0.5-dev'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('flir18t-public-testkey.jks')
+            storePassword 'flir18t'
+            keyAlias 'flir18t'
+            keyPassword 'flir18t'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compileOnly files('libs/xposed-api-stubs.jar')
+}

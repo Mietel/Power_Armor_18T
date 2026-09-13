@@ -1,0 +1,6 @@
+id=flir18t_mobilesdk_compat
+name=18T FLIR Mobile SDK Compatibility
+version=v0.5-dev
+versionCode=5
+author=Mateusz + OpenAI
+description=Power Armor 18T FLIR Thermal/Mobile SDK INTEGRATED discovery + privileged RGB VisualBridge
