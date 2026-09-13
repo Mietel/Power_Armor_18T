@@ -60,6 +60,14 @@ jobs:
           sha256sum out/FLIR18TCompat-v0.5.apk out/18T-FLIR-MobileSDK-Compat-v0.5.zip > out/SHA256SUMS.txt
           cp README.md out/README-v0.5.md
 
+      - name: Upload build bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: FLIR18T-Compat-v0.5
+          path: flir18t/v0.5/out/
+          if-no-files-found: error
+          compression-level: 0
+
       - name: Commit build artifacts to development branch
         run: |
           git config user.name 'FLIR18T CI'
