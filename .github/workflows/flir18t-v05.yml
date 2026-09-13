@@ -64,7 +64,7 @@ jobs:
         run: |
           git config user.name 'FLIR18T CI'
           git config user.email 'actions@users.noreply.github.com'
-          git add flir18t/v0.5/out
+          git add out
           git diff --cached --quiet && exit 0
           git commit -m 'ci: build FLIR18T compat v0.5 artifacts [skip ci]'
           git push origin HEAD:flir18t-mobilesdk-v0.5
