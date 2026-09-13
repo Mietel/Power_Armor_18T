@@ -1,2 +1,2 @@
-5a8d02567dfe0e0c9be1311678fc67ebb040f4fef1eda0e012415684417ad846  out/FLIR18TCompat-v0.5.apk
-e222bd7d7ecfe42b92a34e2f9327b1331eae942104e05db8e0af04af710d2869  out/18T-FLIR-MobileSDK-Compat-v0.5.zip
+bc1fef16ed3cef83a94ee1f49f6e6b6871ce4d056317087015b6109a0c8d7dbc  out/FLIR18TCompat-v0.5.apk
+768a77310e96cfff74dcdc898a0846d375ccf2ad97d58dcc67581cde306b26ca  out/18T-FLIR-MobileSDK-Compat-v0.5.zip
