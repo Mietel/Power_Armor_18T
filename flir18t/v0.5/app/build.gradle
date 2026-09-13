@@ -12,6 +12,10 @@ android {
         versionName '0.5-dev'
     }
 
+    buildFeatures {
+        aidl true
+    }
+
     signingConfigs {
         release {
             storeFile file('flir18t-public-testkey.jks')
