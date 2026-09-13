@@ -1,3 +1,4 @@
+# FLIR18T v0.5 development CI
 name: Build FLIR18T Compat v0.5
 
 on:
