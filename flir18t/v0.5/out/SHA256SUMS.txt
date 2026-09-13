@@ -1,0 +1,2 @@
+5a8d02567dfe0e0c9be1311678fc67ebb040f4fef1eda0e012415684417ad846  out/FLIR18TCompat-v0.5.apk
+e222bd7d7ecfe42b92a34e2f9327b1331eae942104e05db8e0af04af710d2869  out/18T-FLIR-MobileSDK-Compat-v0.5.zip
